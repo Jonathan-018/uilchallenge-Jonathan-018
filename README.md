@@ -1,18 +1,122 @@
-# UIL – Computer Science Programming Packet – Invitational A - 2016
-UIL
-## 9. A_Nine – ‘Rithmetic
-### Program Name: A_Nine.java Input File: a_nine.dat
-This is an easy one. Just write a program that does some simple 'rithmetic!
-Input: An initial value N, followed by N pairs of positive integers A and B, with 0 < A <=100,000 and 0 < B <=100,000.
-Output: The sum, positive difference, product, and quotient (formatted to two places, always >= 1.0) of each integer pair.
-## Sample Input:
-4
-10 4
-14 20
-25 15
-100 34
-## Sample Output:
-14 6 40 2.50
-34 6 280 1.43
-40 10 375 1.67
-134 66 3400 2.94
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package uilchallenge;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import static java.lang.System.in;
+import java.math.BigInteger;
+import java.util.Scanner;
+
+/**
+ *
+ * @author Poncejon9
+ */
+public class UilChallenge {
+
+    /**
+     * @param args the command line arguments
+     * @throws java.io.FileNotFoundException
+     */
+    public static void main(String[] args) throws FileNotFoundException {
+        int x;
+        int y;
+        int z;
+        System.out.println("Enter two integers to calculate their sum, positive "
+                + "difference, product, and quotient");
+        Scanner in = new Scanner(new File("Input.txt"));
+        x = in.nextInt();
+        y = in.nextInt();
+        z = x + y;
+        System.out.println("Sum of the integers = " + z);
+        
+        x = in.nextInt();
+        y = in.nextInt();
+        BigInteger first;
+        z = x - y;
+        System.out.println("Difference of the integers = " + z);
+        
+        x = in.nextInt();
+        y = in.nextInt();
+        z = x * y;
+        System.out.println("Product of the integers = " + z);
+        
+        x = in.nextInt();
+        y = in.nextInt();
+        z = x / y;
+        System.out.println("Quotient of the integers = " + z);
+  
+        //new integers
+        System.out.println("\nEnter two integers to calculate their sum, positive "
+                + "difference, product, and quotient");
+        x = in.nextInt();
+        y = in.nextInt();
+        z = x + y;
+        System.out.println("Sum of the integers = " + z);
+        
+        x = in.nextInt();
+        y = in.nextInt();
+        z = x - y;
+        System.out.println("Difference of the integers = " + z);
+        
+        x = in.nextInt();
+        y = in.nextInt();
+        z = x * y;
+        System.out.println("Product of the integers = " + z);
+        
+        x = in.nextInt();
+        y = in.nextInt();
+        z = x / y;
+        System.out.println("Quotient of the integers = " + z);
+        //new integers
+        System.out.println("\nEnter two integers to calculate their sum, positive "
+                + "difference, product, and quotient");
+        x = in.nextInt();
+        y = in.nextInt();
+        z = x + y;
+        System.out.println("Sum of the integers = " + z);
+        
+        x = in.nextInt();
+        y = in.nextInt();
+        z = x - y;
+        System.out.println("Difference of the integers = " + z);
+        
+        x = in.nextInt();
+        y = in.nextInt();
+        z = x * y;
+        System.out.println("Product of the integers = " + z);
+        
+        x = in.nextInt();
+        y = in.nextInt();
+        z = x / y;
+        System.out.println("Quotient of the integers = " + z);
+        //new integers
+        System.out.println("\nEnter two integers to calculate their sum, positive "
+                + "difference, product, and quotient");
+        x = in.nextInt();
+        y = in.nextInt();
+        z = x + y;
+        System.out.println("Sum of the integers = " + z);
+        
+        x = in.nextInt();
+        y = in.nextInt();
+        z = x - y;
+        System.out.println("Difference of the integers = " + z);
+        
+        x = in.nextInt();
+        y = in.nextInt();
+        z = x * y;
+        System.out.println("Product of the integers = " + z);
+        
+        x = in.nextInt();
+        y = in.nextInt();
+        z = x / y;
+        System.out.println("Quotient of the integers = " + z);
+
+    }
+    
+    
+}
